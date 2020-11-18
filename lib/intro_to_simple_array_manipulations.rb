@@ -1,6 +1,5 @@
-def using_push(colors_in_the_rainbow, string)
-   colors_in_the_rainbow = ["red", "orange", "yellow", "green", "blue", "indigo"]
-colors_in_the_rainbow.push "violet"
+def using_push(some_array, some_string)
+some_array.push some_string
 end
 def using_unshift(bouroughs_in_nyc, string)
     bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
