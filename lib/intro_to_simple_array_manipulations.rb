@@ -10,6 +10,7 @@ def using_unshift(bouroughs_in_nyc, string)
     continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
     continents.pop
      deleted_string="Antarctica"
+     continents.size
   end
   def pop_with_args(dog_breeds)
     dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
