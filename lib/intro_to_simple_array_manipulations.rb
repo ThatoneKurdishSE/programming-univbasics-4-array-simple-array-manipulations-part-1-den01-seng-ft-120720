@@ -14,6 +14,7 @@ def using_unshift(bouroughs_in_nyc, string)
   def pop_with_args(dog_breeds)
     dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
     dog_breeds.pop.(2)
+    dog_breeds
   end
   def using_shift(my_favorite_cities)
     my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
