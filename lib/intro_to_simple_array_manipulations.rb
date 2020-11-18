@@ -1,9 +1,8 @@
 def using_push(some_array, some_string)
 some_array.push some_string
 end
-def using_unshift(bouroughs_in_nyc, string)
-    bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
-    bouroughs_in_nyc.unshift "Staten Island"
+def using_unshift(some_array, some_string)
+    some_array.unshift some_string
   end
   def using_pop(continents)
     continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
