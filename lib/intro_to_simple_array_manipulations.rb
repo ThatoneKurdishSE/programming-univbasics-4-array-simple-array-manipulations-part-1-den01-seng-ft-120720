@@ -5,7 +5,6 @@ def using_unshift(some_array, some_string)
     some_array.unshift some_string
   end
   def using_pop(continents)
-    continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
     continents.pop
   end
   def pop_with_args(dog_breeds)
