@@ -34,12 +34,10 @@ describe "using_pop" do
   it "takes in argument of an array and uses the pop method to remove the last element from the array and return that element" do 
     expect(@deleted_string).to eq("Antarctica")
   end
-
   it "decreases the length of the array by 1" do 
     expect(@continents.size).to eq(6)
   end
 end
-
 describe "pop_with_args" do
   before(:each) do 
     @dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
@@ -48,12 +46,10 @@ describe "pop_with_args" do
   it "takes in an argument of an array and uses the pop method with an argument of 2 to remove the last two array items and return them" do 
     expect(@small_dogs).to eq(["Chihuahua", "Shiba Inu"])
   end 
-
   it "decreases the length of the array by 2" do
     expect(@dog_breeds.size).to eq(2)
   end
 end
-
 describe "using_shift" do 
   before(:each) do 
     @my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
